@@ -18,10 +18,33 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		//This is putting the chicken together 
+		talking();
+		head();
+		body();
+		legsAndGrass();
+	}
+	public static void head() {
+		//This draws the head of the chicken 
+		System.out.println("     \\\\___");
+		System.out.println("     /.__.\\");
+		System.out.println("     \\ \\/ /");
+	}
+	public static void body() {
+		//this draws the body of the chicken
+		System.out.println("  '__/    \\");
+		System.out.println("   \\-      )");
+		System.out.println("    \\_____/");
+	}
+	public static void legsAndGrass() {
+		//this draws the legs of the chicken 
+		System.out.println("______|_|___________");
+		System.out.println("      \" \"");
+	}
+	public static void talking () {
+		//This draws the chicken saying hi 
+		System.out.println("          ________");
+		System.out.println("         (_ HI!___)");
+		System.out.println("           )/");
 	}
 }
